@@ -9,4 +9,8 @@ public class Ultis
 	public static int getRandom(int from,int to){
 		return rndGenerator.nextInt(to) + from;
 	}
+
+	public static String getRandomString(){
+		return "random string";
+	}
 }
