@@ -65,7 +65,7 @@ public class FieldRenderer
 			case PICK:
 				return yellowField;
 			case STORE:
-				return grayField;
+				return blueField;
 			default:
 				return brownField;
 		}

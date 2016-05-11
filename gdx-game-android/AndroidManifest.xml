@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.dylar.spacerace"
+    package="de.spacerace"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,9 +10,9 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/GdxTheme" >
+         >
         <activity
-            android:name="de.dylar.spacerace.AndroidLauncher"
+            android:name="de.spacerace.MainActivity"
             android:label="@string/app_name" 
             android:screenOrientation="landscape"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize">

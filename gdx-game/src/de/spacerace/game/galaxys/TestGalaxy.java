@@ -40,7 +40,7 @@ public class TestGalaxy extends BaseGalaxy
 	{
 		List<Vector2> vl = new ArrayList<Vector2>();
 		
-		for (int i = 0;i < 8;i++)
+		for (int i = 0;i < 18;i++)
 		{
 			//for(int a = 0; a<6;a++){
 				
@@ -53,8 +53,8 @@ public class TestGalaxy extends BaseGalaxy
 			int y;
 			Vector2 v;
 			do{
-				x =Ultis.getRandom(1, 2);
-				y= Ultis.getRandom(1, 8);
+				x =Ultis.getRandom(1, 7);
+				y= Ultis.getRandom(1, 13);
 				v = new Vector2(x,y);
 				
 				if (!contains(vl, v))
